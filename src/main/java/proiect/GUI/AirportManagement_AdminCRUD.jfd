@@ -1,0 +1,62 @@
+JFDML JFormDesigner: "8.0.4.0.266" Java: "17.0.6" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq {par l {seq {space :p:428:p, comp mainMenuButton:::p:273:p}, seq l {space :::p, par l {comp deleteAirportButton::l:p:695:p, comp updateAirportButton::l:p:695:p, comp addAirportbutton::t:p:695:p}}}, space :0:0:x}, seq l {space :p:80:p, par l {seq {par l {comp label4:::p::p, comp label1:::p:95:p}, space :0:99:x}, seq {par l {par l:::p {comp airportCodeField::::536:x, comp airportNameField::::536:x}, comp label2::l:p:79:p}, space ::99:x}}}, seq {space :::p, par l {comp label3::l:p:129:p, comp searchButton::l:p:695:p, comp textField1::l:p:695:p}, space ::14:x}}"
+			"$verticalGroup": "par l {seq {space :p:12:p, comp label3:::p::p, space :::p, comp textField1:::p::p, space ::10:x, comp searchButton:::p::p, space :p:30:p, comp label4:::p::p, space :p:32:p, comp label1:::p::p, space :::p, comp airportCodeField:::p::p, space u:::p, comp label2:::p::p, space :::p, comp airportNameField:::p::p, space :p:39:p, comp addAirportbutton:::p::p, space :p:39:p, comp updateAirportButton:::p::p, space :p:39:p, comp deleteAirportButton:::p::p, space :p:69:p, comp mainMenuButton:::p::p, space :::p}}"
+		} ) {
+			name: "this"
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label3"
+				"text": "Find by airport code"
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "textField1"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "searchButton"
+				"text": "Search"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label4"
+				"text": "You can also enter data in the fields below, and press Add airport to save a new airport in the database"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label1"
+				"text": "Airport code"
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "airportCodeField"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label2"
+				"text": "Airport name"
+				"labelFor": new FormReference( "airportNameField" )
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "airportNameField"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "addAirportbutton"
+				"text": "Add airport"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "updateAirportButton"
+				"text": "Update airport"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "deleteAirportButton"
+				"text": "Delete airport"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "mainMenuButton"
+				"text": "Return to the main menu"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 105, 110 )
+			"size": new java.awt.Dimension( 715, 610 )
+		} )
+	}
+}

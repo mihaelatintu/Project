@@ -1,0 +1,101 @@
+JFDML JFormDesigner: "8.0.4.0.266" Java: "17.0.3" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq l {space :p:152:p, comp etaField:::p:151:p, space :0:0:x}, seq l {space :p:56:p, par l {seq t {par l {comp label2::l:p::p, comp label3::l:p:62:p, comp airlineNameField::l:p:185:p, comp label4::l:p::p, comp departureAirportTextField::l:p:185:p, comp label5::l:p:94:p, comp arrivalAirportTextField::l:p:185:p}, space :::x, par l {comp arrivalTimeTextField::l:p:185:p, comp textField5::l:p:185:p, comp label6::l:p::p, comp label9::l:p:94:p, comp priceTextField::l:p:185:p, comp label7::l:p:94:p}, space :p:269:p}, seq t {par t {seq l {comp dateRadioButton:::p::p, space s:::p, comp dateTextField:::::x}, comp findFlightsButton::l:::x, seq l {comp airlineRadioButton:::p::p, space :::p, par l:::p {comp label1::::343:x, comp airlineTextField::::343:x}, space :0:0:x}}, space :p:263:p}, seq {par l:::p {comp deleteFlightButton::::406:x, comp updateFlightButton::::406:x, comp addNewFlightButton::l::406:x}, space :0:0:x}}}}"
+			"$verticalGroup": "par l {seq l {space :p:57:p, par b {comp airlineTextField::b:p::p, comp airlineRadioButton::b:p::p}, space :p:22:p, comp label1:::p::p, space :::p, par b {comp dateRadioButton::b:p::p, comp dateTextField::b:p::p}, space s:::p, comp findFlightsButton:::p::p, space :p:53:p, comp label2:::p::p, space :p:30:p, par b {comp label3::b:p::p, comp label6::b:p::p}, space :p:2:p, par b {comp airlineNameField::b:p::p, comp textField5::b:p::p}, space s:::p, par b {comp label4::b:p::p, comp label7::b:p::p}, space :p:4:p, par b {comp departureAirportTextField::b:p::p, comp arrivalTimeTextField::b:p::p}, space s:::p, par b {comp label5::b:p::p, comp label9::b:p::p}, space :::p, par b {comp arrivalAirportTextField::b:p::p, comp priceTextField::b:p::p}, space s:::p, comp etaField:::p::p, space :p:47:p, comp addNewFlightButton:::p::p, space s:::p, comp updateFlightButton:::p::p, space s:::p, comp deleteFlightButton:::p::p, space ::56:x}}"
+		} ) {
+			name: "this"
+			add( new FormComponent( "javax.swing.JRadioButton" ) {
+				name: "airlineRadioButton"
+				"text": "Airline"
+			} )
+			add( new FormComponent( "javax.swing.JRadioButton" ) {
+				name: "dateRadioButton"
+				"text": "Date"
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "airlineTextField"
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "dateTextField"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label1"
+				"text": "dd/mm/yyyy format"
+				"horizontalAlignment": 0
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "findFlightsButton"
+				"text": "Find flights"
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "airlineNameField"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label2"
+				"text": "Selected flight data:"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label3"
+				"text": "Airline"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label4"
+				"text": "Departure Aiport"
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "arrivalAirportTextField"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label5"
+				"text": "Arrival Aiport"
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "departureAirportTextField"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label6"
+				"text": "Departure Time"
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "textField5"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label7"
+				"text": "Arrival Time"
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "arrivalTimeTextField"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "etaField"
+				"text": "Expected time of the flight is"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label9"
+				"text": "Price"
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "priceTextField"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "addNewFlightButton"
+				"text": "Add new flight"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "updateFlightButton"
+				"text": "Update flight"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "deleteFlightButton"
+				"text": "Delete flight"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 480, 15 )
+			"size": new java.awt.Dimension( 495, 685 )
+		} )
+	}
+}

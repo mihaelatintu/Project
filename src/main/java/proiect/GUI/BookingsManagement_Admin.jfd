@@ -1,0 +1,87 @@
+JFDML JFormDesigner: "8.0.4.0.266" Java: "17.0.6" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JDialog", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq l {space :p:23:p, par l {seq l {comp jLabel1:::p::p, space ::613:x}, seq t {par t {seq {par l:::p {seq l {comp jRadioButton1:::p::p, space :p:132:p, comp searchBookingField:::p:207:p}, seq t {par l {comp jRadioButton3::l:p::p, par t:l::p {comp jLabel2::l:::x, comp findBookingButton::l:::x}, comp jLabel5::l:p:41:p, par t:l::p {comp jLabel4::l:::x, comp jLabel3::l::57:x}}, space :::x, par l:::p {comp searchUserIDField::::207:x, comp bookingID_TextField:::::x, comp userID_TextField:::::x, comp seat_TextField:::::x, comp flightID_TextField::l:::x}}}, space :::x, comp jButton1:::p:170:p}, seq {comp newBookingButton::::170:x, space :p:58:p, comp updateBookingButton::::170:x, space :p:87:p, comp jButton2:::p:170:p}}, space :p:37:p}}}}"
+			"$verticalGroup": "par l {seq l {space :::p, comp jLabel1:::p::p, space u:::p, par l {comp jRadioButton1::l:p::p, comp searchBookingField::l:p::p}, space s:::p, par l {comp jRadioButton3:::p::p, comp searchUserIDField:::p::p}, space :p:18:p, comp findBookingButton:::p::p, space :p:95:p, par l {comp jLabel2:::p::p, comp bookingID_TextField:::p::p}, space :p:28:p, par l {comp jLabel3:::p::p, par b {comp jButton1::b:p::p, comp flightID_TextField::b:p::p}}, space :p:28:p, par l {comp jLabel4:::p::p, comp userID_TextField:::p::p}, space :p:28:p, par l {comp jLabel5:::p::p, comp seat_TextField:::p::p}, space s:::p, par b {comp updateBookingButton::b:p::p, comp jButton2::b:p::p, comp newBookingButton::b:p::p}, space ::42:x}}"
+		} ) {
+			name: "this"
+			"defaultCloseOperation": 2
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "searchBookingField"
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "searchUserIDField"
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "searchUserIDFieldActionPerformed", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JRadioButton" ) {
+				name: "jRadioButton3"
+				"text": "User ID"
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "jRadioButton3ActionPerformed", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "findBookingButton"
+				"text": "Find booking"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "jLabel1"
+				"text": "Search user by:"
+			} )
+			add( new FormComponent( "javax.swing.JRadioButton" ) {
+				name: "jRadioButton1"
+				"text": "Booking ID"
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "jRadioButton1ActionPerformed", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "jLabel2"
+				"text": "Booking ID"
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "bookingID_TextField"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "jLabel3"
+				"text": "Flight ID"
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "flightID_TextField"
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "flightID_TextFieldActionPerformed", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "jLabel4"
+				"text": "User ID"
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "userID_TextField"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "jLabel5"
+				"text": "Seat"
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "seat_TextField"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "updateBookingButton"
+				"text": "Update booking"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "jButton1"
+				"text": "See full flight details"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "jButton2"
+				"text": "Delete booking"
+				"foreground": sfield java.awt.Color red
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "newBookingButton"
+				"text": "New booking"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 195, 25 )
+		} )
+	}
+}

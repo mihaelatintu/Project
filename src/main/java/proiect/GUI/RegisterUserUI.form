@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JDialogFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="221" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="jLabel10" linkSize="2" max="32767" attributes="0"/>
+                          <Component id="confirmPasswordField" linkSize="3" alignment="0" max="32767" attributes="0"/>
+                          <Component id="firstNameField" linkSize="3" alignment="0" max="32767" attributes="0"/>
+                          <Component id="lastNameField" linkSize="3" alignment="0" pref="217" max="32767" attributes="0"/>
+                          <Component id="passwordField" linkSize="3" alignment="0" max="32767" attributes="0"/>
+                          <Component id="emailField" linkSize="3" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jLabel9" linkSize="2" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jLabel7" linkSize="2" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jLabel6" linkSize="2" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jLabel11" linkSize="2" pref="217" max="32767" attributes="0"/>
+                          <Component id="phoneNumberLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="phoneNumberField" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="243" max="-2" attributes="0"/>
+                      <Component id="registerButton" min="-2" pref="165" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="250" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabel6" linkSize="4" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="emailField" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+              <Component id="jLabel7" linkSize="4" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="passwordField" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+              <Component id="jLabel9" linkSize="4" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="confirmPasswordField" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="jLabel11" linkSize="4" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="firstNameField" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+              <Component id="jLabel10" linkSize="4" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="lastNameField" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="phoneNumberLabel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="phoneNumberField" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="registerButton" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="52" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Email"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Password"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel9">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Confirm password"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel10">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Last name"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel11">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="First name"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="emailField">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="toolTipText" type="java.lang.String" value="Enter your email here"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="firstNameField">
+      <Properties>
+        <Property name="toolTipText" type="java.lang.String" value="Your first name"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_SerializeTo" type="java.lang.String" value="RegisterUserUI_firstNameField"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="lastNameField">
+      <Properties>
+        <Property name="toolTipText" type="java.lang.String" value="Your last name"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="lastNameFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JPasswordField" name="passwordField">
+      <Properties>
+        <Property name="toolTipText" type="java.lang.String" value="Enter a password"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="passwordFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JPasswordField" name="confirmPasswordField">
+      <Properties>
+        <Property name="toolTipText" type="java.lang.String" value="Re-enter the previous password"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="confirmPasswordFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="registerButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Register"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="registerButton.addActionListener(e -&gt; {&#xa;    String email = emailField.getText();&#xa;    String password = new String(passwordField.getPassword());&#xa;    String confirmPassword = new String(confirmPasswordField.getPassword());&#xa;    String firstName = firstNameField.getText();&#xa;    String lastName = lastNameField.getText();&#xa;&#xa;    if (email.isEmpty() || password.isEmpty() || confirmPassword.isEmpty() || firstName.isEmpty() || lastName.isEmpty()) {&#xa;        JOptionPane.showMessageDialog(null, &quot;All fields must be filled.&quot;);&#xa;        return;&#xa;    }&#xa;&#xa;    if (!email.matches(&quot;^[\\w-\\.]+@([\\w-]+\\.)+[\\w-]{2,4}$&quot;)) {&#xa;        JOptionPane.showMessageDialog(null, &quot;Invalid email format.&quot;);&#xa;        return;&#xa;    }&#xa;&#xa;    if (password.length() &lt; 8) {&#xa;        JOptionPane.showMessageDialog(null, &quot;Password must be at least 8 characters long.&quot;);&#xa;        return;&#xa;    }&#xa;&#xa;    if (!password.equals(confirmPassword)) {&#xa;        JOptionPane.showMessageDialog(null, &quot;Passwords do not match.&quot;);&#xa;        return;&#xa;    }&#xa;&#xa;    Users newUser = new Users(email, password, firstName, lastName);&#xa;&#xa;    try {&#xa;        Users registeredUser = apiClient.registerUser(newUser);&#xa;        if (registeredUser != null) {&#xa;            JOptionPane.showMessageDialog(null, &quot;Registration successful!&quot;);&#xa;            this.dispose(); // Close the registration dialog&#xa;        } else {&#xa;            JOptionPane.showMessageDialog(null, &quot;Email is already used.&quot;);&#xa;        }&#xa;    } catch (IOException ex) {&#xa;        JOptionPane.showMessageDialog(null, &quot;Error communicating with the server.&quot;);&#xa;    }&#xa;});"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="phoneNumberLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Phone number"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="phoneNumberField">
+    </Component>
+  </SubComponents>
+</Form>
