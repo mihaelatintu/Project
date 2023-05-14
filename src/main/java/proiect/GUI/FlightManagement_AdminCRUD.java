@@ -30,9 +30,6 @@ import java.util.List;
 
 
 
-/**
- * @author Eduard Oprea
- */
 public class FlightManagement_AdminCRUD extends JPanel {
 
 
@@ -50,7 +47,7 @@ public class FlightManagement_AdminCRUD extends JPanel {
 
 	private void initComponents() {
 		// JFormDesigner - Component initialization - DO NOT MODIFY  //GEN-BEGIN:initComponents  @formatter:off
-		// Generated using JFormDesigner Evaluation license - Eduard Oprea
+
 		airlineRadioButton = new JRadioButton();
 		dateRadioButton = new JRadioButton();
 		airlineTextField = new JTextField();
@@ -386,7 +383,7 @@ public class FlightManagement_AdminCRUD extends JPanel {
 		return gson.fromJson(response.body().string(), listType);
 	}
 	// JFormDesigner - Variables declaration - DO NOT MODIFY  //GEN-BEGIN:variables  @formatter:off
-	// Generated using JFormDesigner Evaluation license - Eduard Oprea
+
 	private JRadioButton airlineRadioButton;
 	private JRadioButton dateRadioButton;
 	private JTextField airlineTextField;

@@ -741,7 +741,6 @@ public class BookingsManagement_Admin extends javax.swing.JDialog {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    // Generated using JFormDesigner Evaluation license - Eduard Oprea
     private JTextField searchBookingField;
     private JTextField searchUserIDField;
     private JRadioButton jRadioButton3;

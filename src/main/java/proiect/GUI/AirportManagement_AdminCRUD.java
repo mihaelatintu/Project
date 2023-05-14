@@ -23,10 +23,6 @@ public class AirportManagement_AdminCRUD extends JPanel {
 	}
 
 	private void initComponents() {
-		// JFormDesigner - Component initialization - DO NOT MODIFY  //GEN-BEGIN:initComponents  @formatter:off
-        // Generated using JFormDesigner Evaluation license - Eduard Oprea
-		// JFormDesigner - Variables declaration - DO NOT MODIFY  //GEN-BEGIN:variables  @formatter:off
-		// Generated using JFormDesigner Evaluation license - Eduard Oprea
 		JLabel label3 = new JLabel();
         textField1 = new JTextField();
         searchButton = new JButton();
