@@ -1,7 +1,10 @@
 package proiect.Controllers;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import proiect.DatabaseTables.Flights;
 import proiect.DatabaseTables.Ratings;
 import proiect.Services.RatingsService;
 
@@ -18,7 +21,7 @@ public class RatingsController {
         this.ratingsService = ratingsService;
     }
 
-    @PostMapping
+    @PostMapping("/create")
     public Ratings createRating(@RequestBody Ratings rating) {
         return ratingsService.createRating(rating);
     }
@@ -26,6 +29,11 @@ public class RatingsController {
     @GetMapping("/{id}")
     public Ratings getRating(@PathVariable Long id) {
         return ratingsService.getRatingById(id);
+    }
+    @GetMapping("/list/all")
+    public ResponseEntity<List<Ratings>> getAllRatings() {
+        List<Ratings> ratings = ratingsService.getAllRatings();
+        return new ResponseEntity<>(ratings, HttpStatus.OK);
     }
 
     @PutMapping("/{id}")

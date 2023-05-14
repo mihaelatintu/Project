@@ -25,7 +25,9 @@ public class RatingsService {
     public Ratings getRatingById(Long id) {
         return ratingsRepository.findById(id).orElseThrow(() -> new ResourceNotFoundException("Rating"));
     }
-
+    public List<Ratings> getAllRatings() {
+        return ratingsRepository.findAll();
+    }
     public Ratings updateRating(Long id, Ratings rating) {
         Ratings existingRating = getRatingById(id);
 
